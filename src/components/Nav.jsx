@@ -9,10 +9,10 @@ const Nav = () => {
       <ul className="flex flex-1 justify-center items-center gap-6 px-4 py-4 max-lg:hidden"> 
       
         <a href="/" className="font-semibold "><li>Home</li></a>
-        <a href="/"><li>About</li></a>
-        <a href="/"><li>Services</li></a>
-        <a href="/"><li>Our Team</li></a>
-        <a href="/"><li>Contact</li></a>
+        <a href="#about"><li>About</li></a>
+        <a href="#services"><li>Services</li></a>
+        <a href="#hero"><li>Our Team</li></a>
+        <a href="#footer"><li>Contact</li></a>
       </ul>
       
       <button className="white-btn">Get Start</button>
