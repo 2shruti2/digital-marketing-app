@@ -8,7 +8,7 @@ const Hero = () => {
         <h1 className="big-heading relative ">Digital marketing <br/> made simple</h1>
 
         <div className='relative flex max-md:mt-4 '>
-          <img src={hero1} className='rounded-lg max-sm:hidden' alt='boy' />
+          <img src={hero1} className='rounded-lg max-sm:hidden shadow-xl' alt='boy' />
         </div>
 
       </div>
@@ -20,7 +20,7 @@ const Hero = () => {
       <div className='mt-10 max-sm:mt-[35px] flex justify-between max-md:flex-col '>
 
         <div className='flex justify-around'>
-          <img src={hero2} alt="boy-2" className='rounded-lg' />
+          <img src={hero2} alt="boy-2" className='rounded-lg shadow-xl' />
         </div>
 
         <div className=' mt-[10%] text-center '>

@@ -2,13 +2,13 @@
 
 const Testimonial = () => {
   return (
-    <section id="testimonial" className=" flex padding h-screen text-white bg-people object-cover">
+    <section id="testimonial" className=" flex padding h-screen max-sm:h-[200px] text-white bg-people object-cover">
       <div className=''>
         <h1 className='big-heading'>
-          What People Say
+          What People <br/> Say
         </h1>
 
-      <div className='flex flex-col justify-center items-center w-full h-full text-xl font-roboto capitalize '>
+      <div className='flex flex-col pl-10 pt-10 items-center w-full h-full text-xl font-roboto capitalize '>
       <div className="w-[50%] max-sm:w-full max-sm:text-lg">
       <p className=''>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
       </div>
