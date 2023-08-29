@@ -1,7 +1,7 @@
 
 const Newsletter = () => {
   return (
-    <section id="newsletter" className="sm:px-32 px-8 sm:py-32 py-12 h-screen">
+    <section id="newsletter" className="sm:px-32 px-8 sm:py-32 py-12">
       <div className="flex justify-center ">
         <h1 className="big-heading">Say Hello to Market!</h1>
       </div>
