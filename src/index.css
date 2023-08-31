@@ -14,7 +14,7 @@
 @layer components {
   
   .white-btn{
-    @apply border-black border-[1px] p-3 shadow-xl max-lg:hidden bg-white border-t border-r border-b-[3px] border-l
+    @apply border-black border-[1px] p-3 shadow-xl  bg-white border-t border-r border-b-[3px] border-l
   }
 
   .black-btn{

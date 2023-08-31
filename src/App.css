@@ -7,3 +7,18 @@
     position: relative;
 
   }
+
+  .blur__load{
+    background-size: cover;
+    background-position: center;
+  
+  }
+  
+  .blur__load.loaded > img {
+    opacity: 1;
+  }
+  
+  .blur__load > img {
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+  }

@@ -1,14 +1,19 @@
 import hero1 from '../assets/images/hero1.webp'
 import hero2 from '../assets/images/hero2.webp'
 
+import hero1small from '../assets/images/hero1small.webp'
+import hero2small from '../assets/images/hero2small.webp'
+import BlurryLazyLoad from '../components/BlurryLazyLoad'
+
 const Hero = () => {
   return (
     <section id="hero" className="padding">
       <div className='flex justify-between max-md:flex-col ' >
         <h1 className="big-heading relative ">Digital marketing <br/> made simple</h1>
 
-        <div className='relative flex max-md:mt-4 '>
-          <img src={hero1} className='rounded-lg max-sm:hidden shadow-xl' alt='boy' />
+        <div className='relative flex max-md:mt-4 blur__load' loading='lazy' style={{backgroundImage: `url(${hero1small})` }} >
+          <img src={hero1} className='rounded-lg max-sm:hidden shadow-xl object-cover object-center'  alt='boy'  />
+          <BlurryLazyLoad />
         </div>
 
       </div>
@@ -19,8 +24,9 @@ const Hero = () => {
 
       <div className='mt-10 max-sm:mt-[35px] flex justify-between max-md:flex-col '>
 
-        <div className='flex justify-around'>
-          <img src={hero2} alt="boy-2" className='rounded-lg shadow-xl' />
+        <div className='flex justify-around blur__load' loading='lazy' style={{backgroundImage: `url(${hero2small})` }}>
+          <img src={hero2} alt="boy-2" className='rounded-lg shadow-xl object-cover object-center'  />
+          <BlurryLazyLoad />
         </div>
 
         <div className=' mt-[10%] text-center '>

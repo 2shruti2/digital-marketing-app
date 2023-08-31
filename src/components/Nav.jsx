@@ -15,7 +15,7 @@ const Nav = () => {
         <a href="#footer"><li>Contact</li></a>
       </ul>
       
-      <button className="white-btn">Get Start</button>
+      <button className="white-btn max-lg:hidden">Get Start</button>
 
       <div className=' hidden max-lg:block'>
         <img src={hamburger} alt='Hamburger' width={25} height={25}/>

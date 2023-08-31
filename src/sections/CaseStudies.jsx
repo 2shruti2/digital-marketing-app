@@ -1,6 +1,11 @@
 import case1 from '../assets/images/case1.webp'
 import case2 from '../assets/images/case2.webp'
 
+import case1small from '../assets/images/case1small.webp'
+import case2small from '../assets/images/case2small.webp'
+import BlurryLazyLoad from '../components/BlurryLazyLoad'
+
+
 const CaseStudies = () => {
   return (
     <section id="case-studies" className=" w-full bg-black padding ">
@@ -23,12 +28,13 @@ const CaseStudies = () => {
 
         <div className='flex  mt-[7%] max-sm:flex-col'>
 
-        <div > 
-          <img src={case1} alt='case1' className=' w-[90%]' />
+        <div className='blur__load'  loading='lazy' style={{backgroundImage: `url(${case1small})` }} > 
+          <img src={case1} alt='case1' className=' w-[90%] object-cover object-center' />
+          <BlurryLazyLoad />
         </div>
 
-        <div className='max-sm:hidden'> 
-          <img src={case2} alt='case2' className=' w-[90%]'/>
+        <div className='max-sm:hidden blur__load' loading='lazy' style={{backgroundImage: `url(${case2small})` }}> 
+          <img src={case2} alt='case2' className=' w-[90%] object-cover object-center'/>
         </div>
         </div>
 
