@@ -31,11 +31,11 @@ const footer = () => {
         <div>
         <h2 className='text-xl pb-5'>Quick Links</h2>
           <ul>
-          <a href='/'><li className='text-grey py-2'>Home</li></a>
-          <a href='#about'><li className='text-grey py-2'>About us</li></a>
-          <a href='#services'><li className='text-grey py-2'>Main Services</li></a>
-          <a href='#newsletter'><li className='text-grey py-2'>Pricing</li></a>
-          <a href='#case-studies'><li className='text-grey py-2'>Our Cases</li></a>
+          <a href='/'><li className='text-grey py-2 hover:text-slate-gray'>Home</li></a>
+          <a href='#about'><li className='text-grey py-2 hover:text-slate-gray'>About us</li></a>
+          <a href='#services'><li className='text-grey py-2 hover:text-slate-gray'>Main Services</li></a>
+          <a href='#newsletter'><li className='text-grey py-2 hover:text-slate-gray'>Pricing</li></a>
+          <a href='#case-studies'><li className='text-grey py-2  hover:text-slate-gray'>Our Cases</li></a>
           </ul>
         </div>
 

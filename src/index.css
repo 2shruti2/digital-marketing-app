@@ -14,11 +14,15 @@
 @layer components {
   
   .white-btn{
-    @apply border-black border-[1px] p-3 shadow-xl  bg-white border-t border-r border-b-[3px] border-l
+    @apply border-black border-[1px] p-3 shadow-xl  bg-white border-t border-r border-b-[3px] border-l  hover:text-white hover:transition-opacity delay-100 duration-300 hover:bg-black hover:shadow-2xl ease-in-out
   }
 
   .black-btn{
     @apply border-white border-t border-r border-b-[3px] border-l  text-center text-white bg-black border-[1px] p-3 max-sm:w-full 
+  }
+
+  .nav{
+    @apply p-2 
   }
   
   .rectangle-7 {

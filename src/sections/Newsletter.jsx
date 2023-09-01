@@ -16,7 +16,7 @@ const Newsletter = () => {
       
       <div className="flex max-sm:flex-col justify-center align-middle">
       <input type="email" name="email" class="mt-10 lg:w-[50%]  px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Email Address" />
-      <button className="black-btn mt-10 max-sm:mt-5">SUBSCRIBE NOW</button>
+      <button className="black-btn border-none mt-10 max-sm:mt-5">SUBSCRIBE NOW</button>
       </div>
     </section>
   )
