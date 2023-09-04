@@ -34,7 +34,7 @@ const Nav = () => {
   }, []);
 
   return (
-    <header  className={`navbar ${isFixed ? 'fixed  border-b-1 shadow-xl' : ''} app__navbar w-full p-0 bg-white z-20`}  ref={navbarRef}>
+    <header  className={`navbar ${isFixed ? 'fixed  border-b-1 shadow-lg' : ''} app__navbar w-full p-0 bg-white z-20`}  ref={navbarRef}>
       <nav className="padding nav justify-between flex items-center">
 
         <a href="/" > <img src={blackLogo} alt="logo" className="flex justify-start align-middle" /> </a>
